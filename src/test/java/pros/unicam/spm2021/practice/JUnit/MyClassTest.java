@@ -100,7 +100,7 @@ public class MyClassTest {
 	}
 
 	@ParameterizedTest
-	@Disabled
+	//@Disabled
 	@ValueSource(strings = { "pippo", "radar", "able was I ere I saw elba" })
 	void palindromes(String candidate) {
 		MyClass tester = new MyClass();

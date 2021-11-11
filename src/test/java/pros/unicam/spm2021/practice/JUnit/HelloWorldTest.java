@@ -56,7 +56,7 @@ public class HelloWorldTest {
 	}
 
 	@Test
-	//@Disabled
+	@Disabled
 	void testHelloShouldNotReturnNull() {
 		assertNotNull(HelloWorld.hello());
 	}
