@@ -101,8 +101,26 @@ class SeleniumTest {
 		Thread.sleep(4000);
 		
 		//TO COMPLETE
-		
+			
+	}
 	
+	@Test
+	@Disabled
+	void checkThisWebAppTitle() throws InterruptedException {
+		
+		driver.get("http://localhost:8080/spm2021/");
+
+		Thread.sleep(3000);
+		
+		String at = driver.getTitle();
+		String et = "SPM 2021";
+		
+		//System.out.println(at);		
+		Thread.sleep(4000);
+
+		Assert.assertEquals(et,at);
+		
+		
 	}
 
 }
