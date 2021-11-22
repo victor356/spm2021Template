@@ -105,10 +105,10 @@ class SeleniumTest {
 	}
 	
 	@Test
-	@Disabled
+	//@Disabled
 	void checkThisWebAppTitle() throws InterruptedException {
 		
-		driver.get("http://localhost:8080/spm2021/");
+		driver.get("http://localhost:80/spm2021/");
 
 		Thread.sleep(3000);
 		
