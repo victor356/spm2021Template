@@ -45,7 +45,7 @@ class SeleniumTest {
 			System.setProperty("webdriver.chrome.driver", projectPath+"/drivers/mac/chromedriver");
 		}
 		if(System.getProperty("os.name").contains("Windows")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\studente\\Documents\\BrowserDriver\\chromedriver");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\studente\\Documents\\BrowserDriver\\chromedriver.exe");
 		}
 		driver = new ChromeDriver();
 	}
