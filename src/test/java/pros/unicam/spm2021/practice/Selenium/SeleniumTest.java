@@ -105,7 +105,7 @@ class SeleniumTest {
 	}
 	
 	@Test
-	//@Disabled
+	@Disabled
 	void checkThisWebAppTitle() throws InterruptedException {
 		
 		driver.get("http://localhost:80/spm2021/");
